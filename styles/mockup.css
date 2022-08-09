@@ -38,7 +38,7 @@ body.dark {
 /* =========================================
 NAVIGATION
 ========================================= */
-nav.navbar {
+.nav {
   position: absolute;
   top: 0;
   left: 0;
