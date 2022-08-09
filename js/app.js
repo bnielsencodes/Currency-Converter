@@ -36,10 +36,10 @@ function calculate() {
 calculate();
 
 
-const chk = document.getElementById('chk');
 /* =========================================
 DARK MODE TOGGLE
 ========================================= */
+const chk = document.getElementById('check');
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('dark');
