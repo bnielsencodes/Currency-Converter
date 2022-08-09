@@ -42,7 +42,7 @@ body.dark {
 /* =========================================
 NAVIGATION
 ========================================= */
-.nav {
+#nav {
   position: absolute;
   top: 0;
   display: flex;
