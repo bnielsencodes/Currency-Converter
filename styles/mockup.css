@@ -11,6 +11,7 @@ body {
   --ternary-bg-color: #fafafa;
   --text-color: #474747;
   --dark-mode-toggle: #aff2ff;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
