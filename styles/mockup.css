@@ -19,7 +19,8 @@ body {
   font: normal 16px/1.5 'Monteserrat',
     sans-serif;
   transition: background 0.2s linear;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body.dark {
@@ -40,9 +41,9 @@ body.dark {
 ========================================= */
 .name {
   position: absolute;
-  top: 0;
-  left: 0;
-  margin: 10px 0 0 14px;
+  top: 10px;
+  left: 14px;
+  margin: 0;
   font-size: 1.13rem;
   font-weight: 600;
   letter-spacing: 0.6px;
@@ -53,7 +54,6 @@ body.dark {
   top: 16px;
   right: 20px;
 }
-
 
 
 /* DARK MODE TOGGLE */
