@@ -19,13 +19,13 @@ body {
   font: normal 16px/1.5 'Monteserrat',
     sans-serif;
   transition: background 0.2s linear;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body.dark {
   --primary-bg-color: #1a1a1a;
   --secondary-bg-color: #272727;
-  --ternary-bg-color: #474747;
+  --ternary-bg-color: #272727;
   --text-color: #aff2ff;
   --dark-mode-toggle: #474747;
   background: linear-gradient(to bottom, var(--primary-bg-color) 0%, var(--primary-bg-color) 50%, var(--secondary-bg-color) 50%, var(--secondary-bg-color) 100%);
