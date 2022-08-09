@@ -1,3 +1,6 @@
+/* =========================================
+CALCULATE CURRENCY
+========================================= */
 const from_currencyEl = document.getElementById('from_currency');
 const from_ammountEl = document.getElementById('from_ammount');
 const to_currencyEl = document.getElementById('to_currency');
@@ -34,6 +37,9 @@ calculate();
 
 
 const chk = document.getElementById('chk');
+/* =========================================
+DARK MODE TOGGLE
+========================================= */
 
 chk.addEventListener('change', () => {
   document.body.classList.toggle('dark');
