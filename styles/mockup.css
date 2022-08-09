@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+/* =========================================
+UNIVERSAL STYLING
+========================================= */
 * {
   box-sizing: border-box;
 }
@@ -46,6 +49,9 @@ body {
 
 .middle {
   color: #f59300;
+/* =========================================
+NAVIGATION
+========================================= */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -204,6 +210,9 @@ body.dark {
   bottom: 80px;
   transform: translateX(100%);
   transition: transform 0.4s ease-in-out;
+/* =========================================
+CONVERTER
+========================================= */
 }
 
 
@@ -243,6 +252,9 @@ body.dark {
 
 
 nav {
+/* =========================================
+FOOTER
+========================================= */
   position: absolute;
   top: 0;
   display: flex;
@@ -280,4 +292,7 @@ footer {
   align-items: center;
   width: 320px;
   padding-bottom: 15px;
+/* =========================================
+768 MEDIA QUERIES
+========================================= */
 }
