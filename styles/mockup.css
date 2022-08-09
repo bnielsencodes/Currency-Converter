@@ -42,15 +42,7 @@ body.dark {
 /* =========================================
 NAVIGATION
 ========================================= */
-.nav {
-  position: absolute;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
-  padding: 0 30px 0 15px;
-}
+
 
 .name {
   margin: 0.8rem 0 1.4rem;
