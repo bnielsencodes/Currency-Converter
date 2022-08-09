@@ -113,6 +113,9 @@ CONVERTER
   align-items: center;
 }
 
+.select-container {
+  position: relative;
+}
 
 .select-container select {
   width: 70px;
