@@ -19,7 +19,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(to bottom, #aff2ff 0%, #aff2ff 50%, #50dcff 50%, #50dcff 100%);
+  background: linear-gradient(to bottom, var(--primary-bg-color) 0%, var(--primary-bg-color) 50%, var(--secondary-bg-color) 50%, var(--secondary-bg-color) 100%);
+  color: var(--text-color);
   font: normal 16px/1.5 'Monteserrat',
     sans-serif;
   color: #1a1a1a;
@@ -34,6 +35,8 @@ body {
   --ternary-bg-color: #474747;
   --text-color: #aff2ff;
   --dark-mode-toggle: #474747;
+  background: linear-gradient(to bottom, var(--primary-bg-color) 0%, var(--primary-bg-color) 50%, var(--secondary-bg-color) 50%, var(--secondary-bg-color) 100%);
+  color: var(--text-color);
 }
 
 .currency select {
@@ -165,7 +168,6 @@ body {
 }
 
 body.dark {
-  background: #292C35;
 }
 
 .checkbox {
@@ -184,17 +186,18 @@ body.dark {
   position: relative;
   height: 26px;
   width: 50px;
+  background-color: var(--dark-mode-toggle);
   transform: scale(1.5);
 }
 
 .label .ball {
-  background-color: #fff;
   border-radius: 50%;
   position: absolute;
   top: 2px;
   left: 2px;
   height: 22px;
   width: 22px;
+  background-color: #fafafa;
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
@@ -226,11 +229,17 @@ CONVERTER
 }
 
 
+  color: var(--text-color);
+
+  color: var(--text-color);
+
+  color: var(--text-color);
+
+  background-color: var(--ternary-bg-color);
+  color: var(--text-color);
 
 
-
-
-
+  background-color: var(--ternary-bg-color);
 
 
 
@@ -290,8 +299,8 @@ FOOTER
 }
 
 .footer-fas {
+  color: var(--text-color);
   font-size: 2.25rem;
-  color: #fafafa;
 }
 
 footer {
