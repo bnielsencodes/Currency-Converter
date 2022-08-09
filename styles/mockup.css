@@ -8,6 +8,11 @@ UNIVERSAL STYLING
 }
 
 body {
+  --primary-bg-color: #eee0cb;
+  --secondary-bg-color: #aff2ff;
+  --ternary-bg-color: #fafafa;
+  --text-color: #474747;
+  --dark-mode-toggle: #aff2ff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +29,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  --primary-bg-color: #1a1a1a;
+  --secondary-bg-color: #272727;
+  --ternary-bg-color: #474747;
+  --text-color: #aff2ff;
+  --dark-mode-toggle: #474747;
 }
 
 .currency select {
