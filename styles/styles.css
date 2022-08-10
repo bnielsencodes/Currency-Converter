@@ -138,6 +138,7 @@ CONVERTER
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
 
 .fa-caret-down {
@@ -191,6 +192,7 @@ CONVERTER
   margin: 30px 0 30px 25px;
   background-color: var(--ternary-bg-color);
   font-size: 18px;
+  cursor: default;
 }
 
 select:focus,
