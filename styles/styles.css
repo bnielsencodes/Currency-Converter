@@ -178,7 +178,8 @@ CONVERTER
 }
 
 .middle button:active {
-  transform: rotate(90deg) scale(0.9);
+  transform: rotate(270deg) scale(0.9);
+  transition: transform 0.2s;
 }
 
 .middle .rate {
