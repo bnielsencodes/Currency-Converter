@@ -222,6 +222,10 @@ footer {
   text-decoration: none;
 }
 
+.icon-link:hover {
+  transform: scale(1.1);
+}
+
 .footer-fas {
   color: var(--text-color);
   font-size: 2.25rem;
