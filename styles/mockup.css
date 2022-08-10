@@ -19,8 +19,7 @@ body {
   font: normal 16px/1.5 'Monteserrat',
     sans-serif;
   transition: background 0.2s linear;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body.dark {
